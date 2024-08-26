@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1724638223 source:c:\users\user\documents\arquivos em c - programação\aed - trabalho final\poketrunfo do paraguai 2\card.c
+	"card.h"
+
+1724638223 c:\users\user\documents\arquivos em c - programação\aed - trabalho final\poketrunfo do paraguai 2\card.h
+
+1724638952 source:c:\users\user\documents\arquivos em c - programação\aed - trabalho final\poketrunfo do paraguai 2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"pokedex.h"
+	"game.h"
+
+1724638223 c:\users\user\documents\arquivos em c - programação\aed - trabalho final\poketrunfo do paraguai 2\pokedex.h
+	"card.h"
+
+1724638223 c:\users\user\documents\arquivos em c - programação\aed - trabalho final\poketrunfo do paraguai 2\game.h
+	"pokedex.h"
+
+1724638952 source:c:\users\user\documents\arquivos em c - programação\aed - trabalho final\poketrunfo do paraguai 2\pokedex.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"pokedex.h"
+
+1724639817 source:c:\users\user\documents\arquivos em c - programação\aed - trabalho final\poketrunfo do paraguai 2\game.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"game.h"
+
