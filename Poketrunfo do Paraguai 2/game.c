@@ -52,11 +52,10 @@ void start_game(Pokedex *pokedex, int num_cards_per_player) {
         }
     }
 
-    determine_winner(players, num_players);
+    int winner = determine_winner(players, num_players);
 
-    for (int i = 0; i < num_players; i++) {
-        free(players[i].player_cards);
-    }
+    // Liberar a memória das cartas apenas do vencedor, pois apenas ele terá cartas ao final
+    free(players[winner].player_cards);
 }
 
 void print_card(const Card *card) {
@@ -85,7 +84,7 @@ void play_round(Player *players, int num_players) {
     int attribute;
     int values[num_players];
 
-for (int i = 0; i < num_players; i++) {
+    for (int i = 0; i < num_players; i++) {
         if (players[i].num_cards > 0) {
             played_cards[i] = players[i].player_cards[0];
             printf("Jogador %d joga:\n", i + 1);
@@ -128,7 +127,7 @@ for (int i = 0; i < num_players; i++) {
     }
 }
 
-void determine_winner(Player *players, int num_players) {
+int determine_winner(Player *players, int num_players) {
     int max_cards = 0;
     int winner_index = 0;
     for (int i = 0; i < num_players; i++) {
@@ -138,4 +137,5 @@ void determine_winner(Player *players, int num_players) {
         }
     }
     printf("O vencedor do jogo é o Jogador %d\n", winner_index + 1);
+    return winner_index;
 }

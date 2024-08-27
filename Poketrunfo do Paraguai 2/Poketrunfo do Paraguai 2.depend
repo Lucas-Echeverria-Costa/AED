@@ -4,7 +4,7 @@
 
 1724638223 c:\users\user\documents\arquivos em c - programação\aed - trabalho final\poketrunfo do paraguai 2\card.h
 
-1724638952 source:c:\users\user\documents\arquivos em c - programação\aed - trabalho final\poketrunfo do paraguai 2\main.c
+1724781690 source:c:\users\user\documents\arquivos em c - programação\aed - trabalho final\poketrunfo do paraguai 2\main.c
 	<stdio.h>
 	<stdlib.h>
 	"pokedex.h"
@@ -13,16 +13,16 @@
 1724638223 c:\users\user\documents\arquivos em c - programação\aed - trabalho final\poketrunfo do paraguai 2\pokedex.h
 	"card.h"
 
-1724638223 c:\users\user\documents\arquivos em c - programação\aed - trabalho final\poketrunfo do paraguai 2\game.h
+1724781534 c:\users\user\documents\arquivos em c - programação\aed - trabalho final\poketrunfo do paraguai 2\game.h
 	"pokedex.h"
 
-1724638952 source:c:\users\user\documents\arquivos em c - programação\aed - trabalho final\poketrunfo do paraguai 2\pokedex.c
+1724796573 source:c:\users\user\documents\arquivos em c - programação\aed - trabalho final\poketrunfo do paraguai 2\pokedex.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	"pokedex.h"
 
-1724639817 source:c:\users\user\documents\arquivos em c - programação\aed - trabalho final\poketrunfo do paraguai 2\game.c
+1724781534 source:c:\users\user\documents\arquivos em c - programação\aed - trabalho final\poketrunfo do paraguai 2\game.c
 	<stdio.h>
 	<stdlib.h>
 	<time.h>

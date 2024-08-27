@@ -12,7 +12,7 @@ typedef struct {
 // Funções para gerenciar o jogo
 void start_game(Pokedex *pokedex, int num_cards_per_player);
 void play_round(Player *players, int num_players);
-void determine_winner(Player *players, int num_players);
+int determine_winner(Player *players, int num_players);  // Atualização: Retorna o índice do vencedor
 void print_card(const Card *card);
 void print_player_cards(const Player *player);
 
